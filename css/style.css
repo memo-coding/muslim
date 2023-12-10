@@ -44,6 +44,10 @@ body {
   margin: 0 auto;
 }
 
+.active {
+  display: block !important;
+}
+
 .logo {
   color: #00af83;
   font-size: 1.3rem;
@@ -253,12 +257,13 @@ footer {
 .list {
   position: absolute;
   top: 50px;
-  left: 70px;
+  left: 40px;
   background: #fff;
   padding: 1rem;
   border-radius: 3px;
   text-align: right;
   display: none;
+  border: 1px solid #00af83;
 }
 
 @media (max-width: 650px) {
@@ -276,10 +281,6 @@ footer {
 
   header nav .list-icon {
     display: block;
-  }
-
-  .list-icon:hover .list {
-    display: block !important;
   }
 
   .download-app .content {
