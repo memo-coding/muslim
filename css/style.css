@@ -264,6 +264,7 @@ footer {
   text-align: right;
   display: none;
   border: 1px solid #00af83;
+  transition: 0.5s ease;
 }
 
 @media (max-width: 650px) {
